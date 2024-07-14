@@ -44,11 +44,12 @@ function Navbar() {
       <li>
         <a href="/course">Course</a>
       </li>
+      
       <li>
-        <a>Contact</a>
+        <a href="/aboutUs">About</a>
       </li>
       <li>
-        <a>About</a>
+        <a href="/signup">Register</a>
       </li>
     </>
   );
@@ -138,7 +139,7 @@ function Navbar() {
 
               {/* moon icon */}
               <svg
-                className="swap-on fill-current w-7 h-7"
+                className="swap-on fill-current w-8 h-7"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 onClick={() => setTheme(theme === "light" ? "dark" : "light")}
